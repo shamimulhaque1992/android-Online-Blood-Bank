@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "317067726469",
+    "firebase_url": "https://onlinebloodbank-2f3ef.firebaseio.com",
+    "project_id": "onlinebloodbank-2f3ef",
+    "storage_bucket": "onlinebloodbank-2f3ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317067726469:android:a7f5716483ca2e320e23ec",
+        "android_client_info": {
+          "package_name": "com.example.onlinebloodbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317067726469-j0snmtlct0kng0crfo09kqj8ld0pbqfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXpNpD645mk9LjacNM03oGo8R5NcAJCig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317067726469-j0snmtlct0kng0crfo09kqj8ld0pbqfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

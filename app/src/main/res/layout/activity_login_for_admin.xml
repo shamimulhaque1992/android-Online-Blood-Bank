@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginForAdmin">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/download3">
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="221dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="95dp"
+        android:gravity="center"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginRight="95dp"
+        android:background="@drawable/login_edt_bg"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/textview12"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btngtous"
+        android:layout_width="338dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="44dp"
+        android:text="@string/button_admin_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnlofadmn" />
+
+        <EditText
+            android:id="@+id/edtpassadmlog"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="210dp"
+            android:paddingStart="20dp"
+            android:paddingLeft="20dp"
+            android:layout_marginRight="210dp"
+            android:autofillHints="@string/admins_password"
+            android:background="@drawable/login_edt_bg"
+            android:ems="10"
+            android:hint="@string/admins_password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView27"
+            app:layout_constraintTop_toBottomOf="@+id/edtmailadmlog" />
+
+        <EditText
+            android:id="@+id/edtmailadmlog"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="27dp"
+            android:paddingStart="20dp"
+            android:paddingLeft="20dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginRight="150dp"
+            android:autofillHints="@string/admins_username"
+            android:background="@drawable/login_edt_bg"
+            android:ems="10"
+            android:hint="@string/admins_username"
+            android:inputType="textPersonName"
+            android:text="@string/name16"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView26"
+            app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="130dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/login_edt_bg"
+            android:gravity="center"
+            android:text="@string/textview14"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            app:drawableStartCompat="@drawable/pass_icon_login"
+            app:layout_constraintEnd_toStartOf="@+id/edtpassadmlog"
+            app:layout_constraintHorizontal_bias="0.48"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="100dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginRight="56dp"
+            android:background="@drawable/login_edt_bg"
+            android:drawablePadding="15dp"
+            android:gravity="center"
+            android:text="@string/textview15"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            app:drawableStartCompat="@drawable/email_icon"
+            app:layout_constraintEnd_toStartOf="@+id/edtmailadmlog"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <Button
+        android:id="@+id/btnlofadmn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="288dp"
+        android:layout_marginLeft="288dp"
+        android:background="@drawable/login_edt_bg"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/button_admin_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtpassadmlog" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView"
+            android:layout_width="190dp"
+            android:layout_height="170dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="111dp"
+            android:layout_marginRight="111dp"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp"
+            android:contentDescription="@string/descadmin"
+            android:src="@drawable/download"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="314dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="48dp"
+        android:gravity="center"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:background="@drawable/login_edt_bg"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/textview13"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
